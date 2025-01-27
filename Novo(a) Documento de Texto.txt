@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construção com EPS - Revolução na Construção Civil</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('images/eps-background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            background: rgba(76, 175, 80, 0.8);
+            padding: 40px 20px;
+            color: #fff;
+        }
+        header h1 {
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 10px 0 20px;
+        }
+        header .btn {
+            padding: 10px 20px;
+            margin: 5px;
+            text-decoration: none;
+            font-size: 1rem;
+            border-radius: 5px;
+        }
+        header .btn-primary {
+            background-color: #388e3c;
+            color: #fff;
+        }
+        header .btn-primary:hover {
+            background-color: #2e7d32;
+        }
+        header .btn-whatsapp {
+            background-color: #25d366;
+            color: #fff;
+        }
+        header .btn-whatsapp:hover {
+            background-color: #1ebd50;
+        }
+        main section {
+            padding: 40px 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        main section h2 {
+            color: #2e7d32;
+        }
+        .faq-container {
+            text-align: center;
+        }
+        .btn {
+            display: inline-block;
+            background: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .btn:hover {
+            background: #388e3c;
+        }
+        .faq-content {
+            display: none;
+            margin-top: 20px;
+            padding: 15px;
+            text-align: left;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .faq-content ul {
+            padding-left: 20px;
+        }
+        .faq-content ul li {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            background: #2e7d32;
+            color: #fff;
+            padding: 20px 10px;
+        }
+    </style>
+    <script>
+        function toggleFAQ() {
+            const faqContent = document.getElementById('faq-content');
+            faqContent.style.display = faqContent.style.display === 'none' || faqContent.style.display === '' ? 'block' : 'none';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Construa com EPS e transforme seu sonho em realidade</h1>
+            <p>Eficiência, sustentabilidade e economia para sua obra.</p>
+            <a href="#proposta" class="btn btn-primary">Peça sua Proposta</a>
+            <a href="https://wa.me/seunumero" target="_blank" class="btn btn-whatsapp">Fale pelo WhatsApp</a>
+        </div>
+    </header>
+    <main>
+        <section id="sobre">
+            <h2>Por que construir com EPS?</h2>
+            <p>EPS é um material inovador, sustentável e amplamente utilizado no exterior. Ele reduz custos, acelera obras e oferece excelente isolamento térmico e acústico.</p>
+        </section>
+        <section id="galeria">
+            <h2>Galeria de Obras</h2>
+            <div class="fotos">
+                <img src="images/iso9.jpg" alt="Construção 1">
+                <img src="images/iso5.jpg" alt="Construção 2">
+                <img src="images/iso8.jpg" alt="Construção 3">
+            </div>
+        </section>
+        <section id="depoimentos">
+            <h2>Depoimentos</h2>
+            <div class="depoimento">
+                <p>"Minha casa ficou pronta em tempo recorde graças ao EPS. Recomendo!"</p>
+                <strong>- Maria Silva</strong>
+            </div>
+            <div class="depoimento">
+                <p>"Qualidade e economia como nunca vi antes. Excelente material!"</p>
+                <strong>- João Oliveira</strong>
+            </div>
+        </section>
+        <section id="faq" class="faq-container">
+            <button class="btn" onclick="toggleFAQ()">Perguntas Frequentes</button>
+            <div class="faq-content" id="faq-content">
+                <h2>Principais Aplicações do EPS na Construção Civil</h2>
+                <ul>
+                    <li><strong>Lajes:</strong> Reduz o peso da estrutura, utilizado como preenchimento entre vigas.</li>
+                    <li><strong>Paredes:</strong> Externas e internas, proporcionando isolamento térmico e acústico.</li>
+                    <li><strong>Telhados:</strong> Melhora o isolamento térmico.</li>
+                    <li><strong>Construções Modulares:</strong> Facilita montagem e transporte de módulos.</li>
+                </ul>
+                <h2>Perguntas Frequentes</h2>
+                <ul>
+                    <li><strong>O que é construção com EPS?</strong> Um sistema construtivo com Poliestireno Expandido (Isopor).</li>
+                    <li><strong>Construir com EPS é mais caro que alvenaria?</strong> Inicialmente pode ser, mas oferece economia a longo prazo.</li>
+                    <li><strong>O EPS é seguro contra incêndios?</strong> Sim, quando adequadamente protegido.</li>
+                    <li><strong>Qual a durabilidade das construções com EPS?</strong> Alta durabilidade quando bem instalado.</li>
+                    <li><strong>EPS pode ser usado em qualquer clima?</strong> Sim, é eficiente em climas extremos.</li>
+                    <li><strong>É possível reformar construções com EPS?</strong> Sim, mas exige cuidado profissional.</li>
+                    <li><strong>O EPS é sustentável?</strong> Sim, é reciclável e reduz resíduos.</li>
+                    <li><strong>Qual a principal vantagem do EPS?</strong> Leveza e isolamento térmico.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="cadastro">
+            <h2>Proposta</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 - Construção com EPS | Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
